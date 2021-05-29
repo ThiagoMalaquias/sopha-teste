@@ -1,0 +1,23 @@
+<div class="mt-5 align-self-center">
+  <form method="POST" action="/signup">
+    <h2 class="mb-4">Cadastre-se</h2>
+
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Nome</label>
+      <input type="text" class="form-control" name="user[username]" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email</label>
+      <input type="email" class="form-control" name="user[email]" id="exampleInputEmail1" aria-describedby="emailHelp">
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Senha</label>
+      <input type="password" class="form-control" name="user[password]" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" name="user[rememberme]" for="exampleCheck1">Lembre de Mim</label>
+    </div>
+    <button type="submit" class="btn btn-primary">Entrar</button>
+  </form>
+</div>
